@@ -236,8 +236,8 @@ elFile.addEventListener("change", async (e) => {
 btnExample.addEventListener("click", () => {
   elInput.value = JSON.stringify({
     forwards: [
-      { id: 11714, localPort: 22240, internetPort: 22240, remoteIp: "45.196.236.89", remotePort: 8220, remark: "测试转发1", state: 1 },
-      { id: 11530, localPort: 52108, internetPort: 52108, remoteIp: "45.196.236.89", remotePort: 20132, remark: "测试转发2", state: 1 }
+      { id: 11714, localPort: 22240, internetPort: 22240, remoteIp: "x.x.x.x", remotePort: 8220, remark: "测试转发1", state: 1 },
+      { id: 11530, localPort: 52108, internetPort: 52108, remoteIp: "x.x.x.x", remotePort: 20132, remark: "测试转发2", state: 1 }
     ]
   }, null, 2);
 });
